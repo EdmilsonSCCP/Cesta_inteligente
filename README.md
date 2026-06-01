@@ -1,8 +1,18 @@
-# 🧺 Cesta Inteligente
+# Cesta Inteligente
 
 ## Compre melhor, gaste menos.
 
-O Cesta Inteligente é um aplicativo desenvolvido para ajudar usuários a organizar suas compras, controlar gastos e acompanhar hábitos de consumo.
+O Cesta Inteligente é um aplicativo Android desenvolvido para ajudar usuários a organizar compras domésticas, controlar gastos e acompanhar hábitos de consumo.
+
+O projeto será desenvolvido primeiro como APK de teste usando React Native com Expo. Depois da validação do MVP, a versão pública será preparada para a Play Store no formato AAB.
+
+## Stack planejada
+
+- React Native
+- Expo SDK 56
+- TypeScript
+- SQLite local com `expo-sqlite`
+- EAS Build para gerar APK e AAB
 
 ### Funcionalidades previstas
 
@@ -23,6 +33,7 @@ O Cesta Inteligente é um aplicativo desenvolvido para ajudar usuários a organi
 - [ ] Cadastro de produtos
 - [ ] Cadastro de categorias
 - [ ] Cadastro de supermercados
+- [ ] Cadastro de unidades de medida
 - [ ] Lista de compras
 - [ ] Histórico de compras
 

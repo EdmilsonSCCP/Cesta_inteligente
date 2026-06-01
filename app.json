@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Cesta Inteligente",
+    "slug": "cesta-inteligente",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#F7F4EC"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.edmilsonjunior.cestainteligente"
+    },
+    "android": {
+      "package": "com.edmilsonjunior.cestainteligente"
+    }
+  }
+}
