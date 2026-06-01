@@ -1,0 +1,251 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.13.0
+2 info using node@v24.16.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Edmilson\Documents\GitHub\Cesta_inteligente\.npmrc
+5 silly config load:file:C:\Users\Edmilson\.npmrc
+6 silly config load:file:C:\Users\Edmilson\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install react-native@0.85.3 typescript@~6.0.3
+8 verbose argv "install" "react-native@0.85.3" "typescript@~6.0.3" "--legacy-peer-deps" "--cache" ".\\.npm-cache" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:C:\Users\Edmilson\Documents\GitHub\Cesta_inteligente\.npm-cache\_logs\2026-06-01T03_47_05_693Z-
+10 verbose logfile C:\Users\Edmilson\Documents\GitHub\Cesta_inteligente\.npm-cache\_logs\2026-06-01T03_47_05_693Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly idealTree buildDeps
+14 silly fetch manifest react-native@0.85.3
+15 silly packumentCache full:https://registry.npmjs.org/react-native cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/react-native 628ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/react-native set size:undefined disposed:false
+18 silly fetch manifest typescript@~6.0.3
+19 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/typescript 297ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/typescript set size:undefined disposed:false
+22 silly placeDep ROOT react-native@0.85.3 REPLACE for: cesta-inteligente@0.1.0 want: 0.85.3
+23 silly placeDep ROOT typescript@6.0.3 REPLACE for: cesta-inteligente@0.1.0 want: ~6.0.3
+24 silly fetch manifest @react-native/codegen@0.85.3
+25 silly packumentCache full:https://registry.npmjs.org/@react-native%2fcodegen cache-miss
+26 silly fetch manifest @react-native/js-polyfills@0.85.3
+27 silly packumentCache full:https://registry.npmjs.org/@react-native%2fjs-polyfills cache-miss
+28 silly fetch manifest @react-native/gradle-plugin@0.85.3
+29 silly packumentCache full:https://registry.npmjs.org/@react-native%2fgradle-plugin cache-miss
+30 silly fetch manifest @react-native/assets-registry@0.85.3
+31 silly packumentCache full:https://registry.npmjs.org/@react-native%2fassets-registry cache-miss
+32 silly fetch manifest @react-native/normalize-colors@0.85.3
+33 silly packumentCache full:https://registry.npmjs.org/@react-native%2fnormalize-colors cache-miss
+34 silly fetch manifest @react-native/virtualized-lists@0.85.3
+35 silly packumentCache full:https://registry.npmjs.org/@react-native%2fvirtualized-lists cache-miss
+36 silly fetch manifest @react-native/community-cli-plugin@0.85.3
+37 silly packumentCache full:https://registry.npmjs.org/@react-native%2fcommunity-cli-plugin cache-miss
+38 http fetch GET 200 https://registry.npmjs.org/@react-native%2fcodegen 178ms (cache miss)
+39 silly packumentCache full:https://registry.npmjs.org/@react-native%2fcodegen set size:undefined disposed:false
+40 http fetch GET 200 https://registry.npmjs.org/@react-native%2fjs-polyfills 373ms (cache miss)
+41 silly packumentCache full:https://registry.npmjs.org/@react-native%2fjs-polyfills set size:undefined disposed:false
+42 http fetch GET 200 https://registry.npmjs.org/@react-native%2fassets-registry 400ms (cache miss)
+43 silly packumentCache full:https://registry.npmjs.org/@react-native%2fassets-registry set size:undefined disposed:false
+44 http fetch GET 200 https://registry.npmjs.org/@react-native%2fgradle-plugin 429ms (cache miss)
+45 silly packumentCache full:https://registry.npmjs.org/@react-native%2fgradle-plugin set size:undefined disposed:false
+46 http fetch GET 200 https://registry.npmjs.org/@react-native%2fnormalize-colors 463ms (cache miss)
+47 silly packumentCache full:https://registry.npmjs.org/@react-native%2fnormalize-colors set size:undefined disposed:false
+48 http fetch GET 200 https://registry.npmjs.org/@react-native%2fvirtualized-lists 486ms (cache miss)
+49 silly packumentCache full:https://registry.npmjs.org/@react-native%2fvirtualized-lists set size:undefined disposed:false
+50 http fetch GET 200 https://registry.npmjs.org/@react-native%2fcommunity-cli-plugin 523ms (cache miss)
+51 silly packumentCache full:https://registry.npmjs.org/@react-native%2fcommunity-cli-plugin set size:undefined disposed:false
+52 silly placeDep ROOT @react-native/assets-registry@0.85.3 OK for: react-native@0.85.3 want: 0.85.3
+53 silly placeDep ROOT @react-native/codegen@0.85.3 OK for: react-native@0.85.3 want: 0.85.3
+54 silly placeDep ROOT @react-native/community-cli-plugin@0.85.3 OK for: react-native@0.85.3 want: 0.85.3
+55 silly placeDep ROOT @react-native/gradle-plugin@0.85.3 OK for: react-native@0.85.3 want: 0.85.3
+56 silly placeDep ROOT @react-native/js-polyfills@0.85.3 OK for: react-native@0.85.3 want: 0.85.3
+57 silly placeDep ROOT @react-native/normalize-colors@0.85.3 OK for: react-native@0.85.3 want: 0.85.3
+58 silly placeDep ROOT @react-native/virtualized-lists@0.85.3 OK for: react-native@0.85.3 want: 0.85.3
+59 silly fetch manifest hermes-parser@0.33.3
+60 silly packumentCache full:https://registry.npmjs.org/hermes-parser cache-miss
+61 silly fetch manifest semver@^7.1.3
+62 silly packumentCache full:https://registry.npmjs.org/semver cache-miss
+63 silly fetch manifest @react-native/dev-middleware@0.85.3
+64 silly packumentCache full:https://registry.npmjs.org/@react-native%2fdev-middleware cache-miss
+65 http fetch GET 200 https://registry.npmjs.org/hermes-parser 67ms (cache miss)
+66 silly packumentCache full:https://registry.npmjs.org/hermes-parser set size:undefined disposed:false
+67 http fetch GET 200 https://registry.npmjs.org/semver 70ms (cache miss)
+68 silly packumentCache full:https://registry.npmjs.org/semver set size:undefined disposed:false
+69 http fetch GET 200 https://registry.npmjs.org/@react-native%2fdev-middleware 152ms (cache miss)
+70 silly packumentCache full:https://registry.npmjs.org/@react-native%2fdev-middleware set size:undefined disposed:false
+71 silly placeDep node_modules/@react-native/codegen hermes-parser@0.33.3 OK for: @react-native/codegen@0.85.3 want: 0.33.3
+72 silly fetch manifest hermes-estree@0.33.3
+73 silly packumentCache full:https://registry.npmjs.org/hermes-estree cache-miss
+74 http fetch GET 200 https://registry.npmjs.org/hermes-estree 255ms (cache miss)
+75 silly packumentCache full:https://registry.npmjs.org/hermes-estree set size:undefined disposed:false
+76 silly placeDep ROOT @react-native/dev-middleware@0.85.3 OK for: @react-native/community-cli-plugin@0.85.3 want: 0.85.3
+77 silly placeDep node_modules/@react-native/community-cli-plugin semver@7.8.1 OK for: @react-native/community-cli-plugin@0.85.3 want: ^7.1.3
+78 silly fetch manifest @react-native/debugger-shell@0.85.3
+79 silly packumentCache full:https://registry.npmjs.org/@react-native%2fdebugger-shell cache-miss
+80 silly fetch manifest @react-native/debugger-frontend@0.85.3
+81 silly packumentCache full:https://registry.npmjs.org/@react-native%2fdebugger-frontend cache-miss
+82 http fetch GET 200 https://registry.npmjs.org/@react-native%2fdebugger-shell 103ms (cache miss)
+83 silly packumentCache full:https://registry.npmjs.org/@react-native%2fdebugger-shell set size:undefined disposed:false
+84 http fetch GET 200 https://registry.npmjs.org/@react-native%2fdebugger-frontend 143ms (cache miss)
+85 silly packumentCache full:https://registry.npmjs.org/@react-native%2fdebugger-frontend set size:undefined disposed:false
+86 silly placeDep ROOT @react-native/debugger-frontend@0.85.3 OK for: @react-native/dev-middleware@0.85.3 want: 0.85.3
+87 silly placeDep ROOT @react-native/debugger-shell@0.85.3 OK for: @react-native/dev-middleware@0.85.3 want: 0.85.3
+88 silly fetch manifest fb-dotslash@0.5.8
+89 silly packumentCache full:https://registry.npmjs.org/fb-dotslash cache-miss
+90 http fetch GET 200 https://registry.npmjs.org/fb-dotslash 58ms (cache miss)
+91 silly packumentCache full:https://registry.npmjs.org/fb-dotslash set size:undefined disposed:false
+92 silly placeDep ROOT fb-dotslash@0.5.8 OK for: @react-native/debugger-shell@0.85.3 want: 0.5.8
+93 silly placeDep node_modules/@react-native/codegen hermes-estree@0.33.3 OK for: hermes-parser@0.33.3 want: 0.33.3
+94 silly reify mark retired [
+94 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@expo\\prebuild-config\\node_modules\\@react-native\\normalize-colors'
+94 silly reify ]
+95 silly reify mark retired [
+95 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\assets-registry'
+95 silly reify ]
+96 silly reify mark retired [
+96 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\babel-plugin-codegen\\node_modules\\@react-native\\codegen'
+96 silly reify ]
+97 silly reify mark retired [
+97 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\babel-plugin-codegen\\node_modules\\hermes-estree'
+97 silly reify ]
+98 silly reify mark retired [
+98 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\babel-plugin-codegen\\node_modules\\hermes-parser'
+98 silly reify ]
+99 silly reify mark retired [
+99 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\codegen'
+99 silly reify ]
+100 silly reify mark retired [
+100 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\community-cli-plugin'
+100 silly reify ]
+101 silly reify mark retired [
+101 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\debugger-frontend'
+101 silly reify ]
+102 silly reify mark retired [
+102 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\debugger-shell'
+102 silly reify ]
+103 silly reify mark retired [
+103 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\dev-middleware'
+103 silly reify ]
+104 silly reify mark retired [
+104 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\gradle-plugin'
+104 silly reify ]
+105 silly reify mark retired [
+105 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\js-polyfills'
+105 silly reify ]
+106 silly reify mark retired [
+106 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\normalize-colors'
+106 silly reify ]
+107 silly reify mark retired [
+107 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\virtualized-lists'
+107 silly reify ]
+108 silly reify mark retired [
+108 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\expo\\node_modules\\@react-native\\debugger-frontend'
+108 silly reify ]
+109 silly reify mark retired [
+109 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\expo\\node_modules\\@react-native\\debugger-shell'
+109 silly reify ]
+110 silly reify mark retired [
+110 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\expo\\node_modules\\@react-native\\dev-middleware'
+110 silly reify ]
+111 silly reify mark retired [
+111 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\react-native',
+111 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\react-native',
+111 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\react-native.cmd',
+111 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\react-native.ps1'
+111 silly reify ]
+112 silly reify mark retired [
+112 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\typescript',
+112 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\tsc',
+112 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\tsc.cmd',
+112 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\tsc.ps1',
+112 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\tsserver',
+112 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\tsserver.cmd',
+112 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\tsserver.ps1'
+112 silly reify ]
+113 silly reify moves {
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@expo\\prebuild-config\\node_modules\\@react-native\\normalize-colors': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@expo\\prebuild-config\\node_modules\\@react-native\\.normalize-colors-Nx8dywc0',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\assets-registry': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\.assets-registry-HF2IwgRh',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\babel-plugin-codegen\\node_modules\\@react-native\\codegen': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\babel-plugin-codegen\\node_modules\\@react-native\\.codegen-jxo9B4sl',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\babel-plugin-codegen\\node_modules\\hermes-estree': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\babel-plugin-codegen\\node_modules\\.hermes-estree-TYSNl6qg',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\babel-plugin-codegen\\node_modules\\hermes-parser': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\babel-plugin-codegen\\node_modules\\.hermes-parser-XAKivLX3',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\codegen': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\.codegen-vOLUcOho',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\community-cli-plugin': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\.community-cli-plugin-xH1ozo0E',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\debugger-frontend': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\.debugger-frontend-JfJWtXqj',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\debugger-shell': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\.debugger-shell-NGd3wUh1',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\dev-middleware': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\.dev-middleware-vEm4HB8K',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\gradle-plugin': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\.gradle-plugin-rWkRBSBd',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\js-polyfills': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\.js-polyfills-qYyWie4h',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\normalize-colors': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\.normalize-colors-BEnkph0m',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\virtualized-lists': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\@react-native\\.virtualized-lists-yGluI86M',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\expo\\node_modules\\@react-native\\debugger-frontend': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\expo\\node_modules\\@react-native\\.debugger-frontend-qZRqKxik',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\expo\\node_modules\\@react-native\\debugger-shell': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\expo\\node_modules\\@react-native\\.debugger-shell-bYKSWnoF',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\expo\\node_modules\\@react-native\\dev-middleware': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\expo\\node_modules\\@react-native\\.dev-middleware-fRAOmUsN',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\react-native': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.react-native-ihknho75',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\react-native': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\.react-native-7EghsTsq',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\react-native.cmd': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\.react-native.cmd-yF2ecjh2',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\react-native.ps1': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\.react-native.ps1-IMP2qd5A',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\typescript': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.typescript-LdcPbciH',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\tsc': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\.tsc-wlAfl4D1',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\tsc.cmd': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\.tsc.cmd-hr6xutoB',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\tsc.ps1': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\.tsc.ps1-rg4xCh3U',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\tsserver': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\.tsserver-h45tE6J5',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\tsserver.cmd': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\.tsserver.cmd-vsuda32u',
+113 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\tsserver.ps1': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\.bin\\.tsserver.ps1-ItorOVhD'
+113 silly reify }
+114 http cache @react-native/virtualized-lists@https://registry.npmjs.org/@react-native/virtualized-lists/-/virtualized-lists-0.85.3.tgz 0ms (cache hit)
+115 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-6.0.3.tgz 0ms (cache hit)
+116 http cache react-native@https://registry.npmjs.org/react-native/-/react-native-0.85.3.tgz 0ms (cache hit)
+117 http cache @react-native/normalize-colors@https://registry.npmjs.org/@react-native/normalize-colors/-/normalize-colors-0.85.3.tgz 0ms (cache hit)
+118 http cache @react-native/gradle-plugin@https://registry.npmjs.org/@react-native/gradle-plugin/-/gradle-plugin-0.85.3.tgz 0ms (cache hit)
+119 http cache @react-native/dev-middleware@https://registry.npmjs.org/@react-native/dev-middleware/-/dev-middleware-0.85.3.tgz 0ms (cache hit)
+120 http cache @react-native/js-polyfills@https://registry.npmjs.org/@react-native/js-polyfills/-/js-polyfills-0.85.3.tgz 0ms (cache hit)
+121 http cache @react-native/debugger-shell@https://registry.npmjs.org/@react-native/debugger-shell/-/debugger-shell-0.85.3.tgz 0ms (cache hit)
+122 http cache @react-native/debugger-frontend@https://registry.npmjs.org/@react-native/debugger-frontend/-/debugger-frontend-0.85.3.tgz 0ms (cache hit)
+123 http cache @react-native/community-cli-plugin@https://registry.npmjs.org/@react-native/community-cli-plugin/-/community-cli-plugin-0.85.3.tgz 0ms (cache hit)
+124 http cache @react-native/codegen@https://registry.npmjs.org/@react-native/codegen/-/codegen-0.85.3.tgz 0ms (cache hit)
+125 silly tarball no local data for @react-native/virtualized-lists@https://registry.npmjs.org/@react-native/virtualized-lists/-/virtualized-lists-0.85.3.tgz. Extracting by manifest.
+126 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-6.0.3.tgz. Extracting by manifest.
+127 silly tarball no local data for react-native@https://registry.npmjs.org/react-native/-/react-native-0.85.3.tgz. Extracting by manifest.
+128 silly tarball no local data for @react-native/normalize-colors@https://registry.npmjs.org/@react-native/normalize-colors/-/normalize-colors-0.85.3.tgz. Extracting by manifest.
+129 http cache @react-native/assets-registry@https://registry.npmjs.org/@react-native/assets-registry/-/assets-registry-0.85.3.tgz 0ms (cache hit)
+130 silly tarball no local data for @react-native/gradle-plugin@https://registry.npmjs.org/@react-native/gradle-plugin/-/gradle-plugin-0.85.3.tgz. Extracting by manifest.
+131 silly tarball no local data for @react-native/dev-middleware@https://registry.npmjs.org/@react-native/dev-middleware/-/dev-middleware-0.85.3.tgz. Extracting by manifest.
+132 silly tarball no local data for @react-native/js-polyfills@https://registry.npmjs.org/@react-native/js-polyfills/-/js-polyfills-0.85.3.tgz. Extracting by manifest.
+133 silly tarball no local data for @react-native/debugger-shell@https://registry.npmjs.org/@react-native/debugger-shell/-/debugger-shell-0.85.3.tgz. Extracting by manifest.
+134 silly tarball no local data for @react-native/debugger-frontend@https://registry.npmjs.org/@react-native/debugger-frontend/-/debugger-frontend-0.85.3.tgz. Extracting by manifest.
+135 silly tarball no local data for @react-native/community-cli-plugin@https://registry.npmjs.org/@react-native/community-cli-plugin/-/community-cli-plugin-0.85.3.tgz. Extracting by manifest.
+136 silly tarball no local data for @react-native/codegen@https://registry.npmjs.org/@react-native/codegen/-/codegen-0.85.3.tgz. Extracting by manifest.
+137 silly tarball no local data for @react-native/assets-registry@https://registry.npmjs.org/@react-native/assets-registry/-/assets-registry-0.85.3.tgz. Extracting by manifest.
+138 http fetch GET 200 https://registry.npmjs.org/@react-native/normalize-colors/-/normalize-colors-0.85.3.tgz 166ms (cache miss)
+139 http fetch GET 200 https://registry.npmjs.org/@react-native/js-polyfills/-/js-polyfills-0.85.3.tgz 400ms (cache miss)
+140 http fetch GET 200 https://registry.npmjs.org/@react-native/assets-registry/-/assets-registry-0.85.3.tgz 521ms (cache miss)
+141 http fetch GET 200 https://registry.npmjs.org/@react-native/virtualized-lists/-/virtualized-lists-0.85.3.tgz 887ms (cache miss)
+142 http fetch GET 200 https://registry.npmjs.org/@react-native/debugger-shell/-/debugger-shell-0.85.3.tgz 1078ms (cache miss)
+143 http fetch GET 200 https://registry.npmjs.org/@react-native/community-cli-plugin/-/community-cli-plugin-0.85.3.tgz 1228ms (cache miss)
+144 http fetch GET 200 https://registry.npmjs.org/@react-native/dev-middleware/-/dev-middleware-0.85.3.tgz 1318ms (cache miss)
+145 http fetch GET 200 https://registry.npmjs.org/@react-native/gradle-plugin/-/gradle-plugin-0.85.3.tgz 2329ms (cache miss)
+146 http fetch GET 200 https://registry.npmjs.org/@react-native/codegen/-/codegen-0.85.3.tgz 2738ms (cache miss)
+147 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-6.0.3.tgz 3045ms (cache miss)
+148 http fetch GET 200 https://registry.npmjs.org/@react-native/debugger-frontend/-/debugger-frontend-0.85.3.tgz 7684ms (cache miss)
+149 http fetch GET 200 https://registry.npmjs.org/react-native/-/react-native-0.85.3.tgz 25097ms (cache miss)
+150 silly CHANGE node_modules/typescript
+151 silly CHANGE node_modules/react-native
+152 silly REMOVE node_modules/expo/node_modules/@react-native/dev-middleware
+153 silly REMOVE node_modules/expo/node_modules/@react-native/debugger-shell
+154 silly REMOVE node_modules/expo/node_modules/@react-native/debugger-frontend
+155 silly CHANGE node_modules/@react-native/virtualized-lists
+156 silly CHANGE node_modules/@react-native/normalize-colors
+157 silly CHANGE node_modules/@react-native/js-polyfills
+158 silly CHANGE node_modules/@react-native/gradle-plugin
+159 silly CHANGE node_modules/@react-native/dev-middleware
+160 silly CHANGE node_modules/@react-native/debugger-shell
+161 silly CHANGE node_modules/@react-native/debugger-frontend
+162 silly CHANGE node_modules/@react-native/community-cli-plugin
+163 silly CHANGE node_modules/@react-native/codegen
+164 silly REMOVE node_modules/@react-native/babel-plugin-codegen/node_modules/hermes-parser
+165 silly REMOVE node_modules/@react-native/babel-plugin-codegen/node_modules/hermes-estree
+166 silly REMOVE node_modules/@react-native/babel-plugin-codegen/node_modules/@react-native/codegen
+167 silly CHANGE node_modules/@react-native/assets-registry
+168 silly REMOVE node_modules/@expo/prebuild-config/node_modules/@react-native/normalize-colors
+169 verbose cwd C:\Users\Edmilson\Documents\GitHub\Cesta_inteligente
+170 verbose os Windows_NT 10.0.26200
+171 verbose node v24.16.0
+172 verbose npm  v11.13.0
+173 verbose exit 0
+174 info ok
