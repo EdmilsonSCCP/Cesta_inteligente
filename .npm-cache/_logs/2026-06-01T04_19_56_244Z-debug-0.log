@@ -1,0 +1,89 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.13.0
+2 info using node@v24.16.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Edmilson\Documents\GitHub\Cesta_inteligente\.npmrc
+5 silly config load:file:C:\Users\Edmilson\.npmrc
+6 silly config load:file:C:\Users\Edmilson\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install babel-preset-expo
+8 verbose argv "install" "--save-dev" "babel-preset-expo" "--cache" ".\\.npm-cache" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:C:\Users\Edmilson\Documents\GitHub\Cesta_inteligente\.npm-cache\_logs\2026-06-01T04_19_56_244Z-
+10 verbose logfile C:\Users\Edmilson\Documents\GitHub\Cesta_inteligente\.npm-cache\_logs\2026-06-01T04_19_56_244Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest babel-preset-expo@*
+16 silly packumentCache full:https://registry.npmjs.org/babel-preset-expo cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/babel-preset-expo 532ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/babel-preset-expo set size:undefined disposed:false
+19 silly fetch manifest @babel/runtime@^7.20.0
+20 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/@babel%2fruntime 182ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime set size:undefined disposed:false
+23 silly fetch manifest expo@~56.0.0
+24 silly packumentCache full:https://registry.npmjs.org/expo cache-miss
+25 http cache https://registry.npmjs.org/expo 20ms (cache hit)
+26 silly packumentCache full:https://registry.npmjs.org/expo set size:3821379 disposed:false
+27 silly fetch manifest @expo/metro-runtime@*
+28 silly packumentCache full:https://registry.npmjs.org/@expo%2fmetro-runtime cache-miss
+29 http cache https://registry.npmjs.org/@expo%2fmetro-runtime 10ms (cache hit)
+30 silly packumentCache full:https://registry.npmjs.org/@expo%2fmetro-runtime set size:709853 disposed:false
+31 silly fetch manifest react@19.2.3
+32 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+33 http cache https://registry.npmjs.org/react 24ms (cache hit)
+34 silly packumentCache full:https://registry.npmjs.org/react set size:6668742 disposed:false
+35 silly fetch manifest react-dom@*
+36 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+37 http cache https://registry.npmjs.org/react-dom 45ms (cache hit)
+38 silly packumentCache full:https://registry.npmjs.org/react-dom set size:8898222 disposed:false
+39 silly fetch manifest react@^19.2.6
+40 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+41 http cache https://registry.npmjs.org/react 31ms (cache hit)
+42 silly packumentCache full:https://registry.npmjs.org/react set size:6668742 disposed:false
+43 silly fetch manifest react-native@^0.85.3
+44 silly packumentCache full:https://registry.npmjs.org/react-native cache-miss
+45 http cache https://registry.npmjs.org/react-native 44ms (cache hit)
+46 silly packumentCache full:https://registry.npmjs.org/react-native set size:15313258 disposed:false
+47 silly fetch manifest @react-native/jest-preset@0.85.3
+48 silly packumentCache full:https://registry.npmjs.org/@react-native%2fjest-preset cache-miss
+49 http cache https://registry.npmjs.org/@react-native%2fjest-preset 8ms (cache hit)
+50 silly packumentCache full:https://registry.npmjs.org/@react-native%2fjest-preset set size:183240 disposed:false
+51 silly fetch manifest @types/react@~19.2.0
+52 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+53 http cache https://registry.npmjs.org/@types%2freact 13ms (cache hit)
+54 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:2607900 disposed:false
+55 silly fetch manifest react-native-web@*
+56 silly packumentCache full:https://registry.npmjs.org/react-native-web cache-miss
+57 http cache https://registry.npmjs.org/react-native-web 9ms (cache hit)
+58 silly packumentCache full:https://registry.npmjs.org/react-native-web set size:1090363 disposed:false
+59 silly fetch manifest react-native-webview@*
+60 silly packumentCache full:https://registry.npmjs.org/react-native-webview cache-miss
+61 http cache https://registry.npmjs.org/react-native-webview 7ms (cache hit)
+62 silly packumentCache full:https://registry.npmjs.org/react-native-webview set size:1355349 disposed:false
+63 silly fetch manifest expo-widgets@^56.0.16
+64 silly packumentCache full:https://registry.npmjs.org/expo-widgets cache-miss
+65 http fetch GET 200 https://registry.npmjs.org/expo-widgets 65ms (cache miss)
+66 silly packumentCache full:https://registry.npmjs.org/expo-widgets set size:undefined disposed:false
+67 silly fetch manifest react-refresh@>=0.14.0 <1.0.0
+68 silly packumentCache full:https://registry.npmjs.org/react-refresh cache-miss
+69 http fetch GET 200 https://registry.npmjs.org/react-refresh 206ms (cache miss)
+70 silly packumentCache full:https://registry.npmjs.org/react-refresh set size:undefined disposed:false
+71 silly placeDep ROOT babel-preset-expo@56.0.14 OK for: cesta-inteligente@0.1.0 want: *
+72 silly reify mark retired [
+72 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\expo\\node_modules\\babel-preset-expo'
+72 silly reify ]
+73 silly reify moves {
+73 silly reify   'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\expo\\node_modules\\babel-preset-expo': 'C:\\Users\\Edmilson\\Documents\\GitHub\\Cesta_inteligente\\node_modules\\expo\\node_modules\\.babel-preset-expo-XYJiHEYJ'
+73 silly reify }
+74 http cache babel-preset-expo@https://registry.npmjs.org/babel-preset-expo/-/babel-preset-expo-56.0.14.tgz 0ms (cache hit)
+75 silly tarball no local data for babel-preset-expo@https://registry.npmjs.org/babel-preset-expo/-/babel-preset-expo-56.0.14.tgz. Extracting by manifest.
+76 http fetch GET 200 https://registry.npmjs.org/babel-preset-expo/-/babel-preset-expo-56.0.14.tgz 335ms (cache miss)
+77 silly ADD node_modules/babel-preset-expo
+78 silly REMOVE node_modules/expo/node_modules/babel-preset-expo
+79 verbose cwd C:\Users\Edmilson\Documents\GitHub\Cesta_inteligente
+80 verbose os Windows_NT 10.0.26200
+81 verbose node v24.16.0
+82 verbose npm  v11.13.0
+83 verbose exit 0
+84 info ok
